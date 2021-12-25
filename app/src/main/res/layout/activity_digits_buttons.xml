@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:theme="@style/CalcButton">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_gravity="end"
+        android:text="@string/btn_clear"
+        android:textSize="@dimen/btn_clear_text_size" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_divide" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_5" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_6" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_multiply"
+        android:textAllCaps="false" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_7" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_8" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_9" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_plus" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_dot" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_equal" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_deduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_deduct" />
+
+</GridLayout>

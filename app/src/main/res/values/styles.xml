@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyButton">
+        <item name="android:fontFamily">@font/font3</item>
+        <item name="android:textSize">@dimen/btn_digits_size</item>
+    </style>
+
+    <style name="CalcButton" parent="MyButton">
+        <item name="android:layout_margin">@dimen/btn_margin</item>
+    </style>
+
+    <style name="Settings_BTN" parent="MyButton">
+        <item name="android:layout_margin">@dimen/btn_settings_margin</item>
+    </style>
+
+    <style name="Radio_BTN" >
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">@dimen/btn_settings_margin</item>
+        <item name="android:fontFamily">@font/font3</item>
+    </style>
+
+</resources>
